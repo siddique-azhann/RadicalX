@@ -1,0 +1,231 @@
+/*Hidden Scrollbar*/
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.columns {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Rectangle 18898*/
+.col1 {
+    position: absolute;
+    width: 756px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+    background: #793EF5;
+}
+
+/*Rectangle 18899*/
+.col2 {
+    position: absolute;
+    width: 756px;
+    height: 982px;
+    left: 756px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+/*Logo SVG Properties*/
+.svg {
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 278px;
+    margin-right: 278px;
+    margin-bottom: 865px;
+}
+
+.loginBox {
+    margin-top: 363px;
+    margin-left: 198px;
+    margin-right: 492px;
+    margin-bottom: 595px;
+}
+
+/* Login */
+.login {
+    width: 66px;
+    height: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+    color: #1E1E1E;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*Global Placeholder*/
+::placeholder {
+    width: 300px;
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+    /* Text/Text - 02 */
+    color: rgba(47, 48, 49, 0.54);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+/*Uname*/
+.uname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 360px;
+    height: 48px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /* Base/Secondary */
+    background: #F5F5F7;
+    /* Field Stroke */
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*Psw*/
+.psw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 360px;
+    height: 48px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    /* Base/Secondary */
+    background: #F5F5F7;
+    /* Field Stroke */
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.remember-me--forget-password {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-checkbox {
+    margin-left: 9.67px;
+    width: 114px;
+    height: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+    /* Gray 3 */
+    color: #828282;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Forgot password? */
+.forget-pass {
+    margin-left: 72px;
+    width: 146px;
+    height: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+    /* Purple */
+    color: #793EF5;
+}
+
+/* Frame 1321314610 */
+.loginButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 29px;
+    width: 360px;
+    height: 48px;
+    top: 208px;
+    margin-top: 20px;
+    /* Base/Secondary */
+    background: #793EF5;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Login */
+.h3 {
+    margin-top: 14px;
+    margin-left: 157.5px;
+    margin-right: 157.5px;
+    margin-bottom: 14px;
+    width: 45px;
+    height: 20px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
