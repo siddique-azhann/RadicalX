@@ -51,7 +51,7 @@
     margin-bottom: 595px;
 }
 
-/* Login */
+/* Login Box */
 .login {
     width: 66px;
     height: 24px;
@@ -137,59 +137,43 @@
     flex-grow: 0;
 }
 
-.remember-me--forget-password {
-    margin-top: 12px;
+.checkbox{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 15.67px;
+    margin: 20px 15px;
 }
-
-.text-checkbox {
-    margin-left: 9.67px;
-    width: 114px;
-    height: 24px;
+#remember{
+    display: flex;
+    margin: -41px 39px;
     font-family: 'Space Grotesk';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    letter-spacing: 0.4px;
-    font-feature-settings: 'liga' off;
-    /* Gray 3 */
-    color: #828282;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-/* Forgot password? */
-.forget-pass {
-    margin-left: 72px;
     width: 146px;
-    height: 24px;
-    font-family: 'Space Grotesk';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
     letter-spacing: 0.4px;
     font-feature-settings: 'liga' off;
-    /* Purple */
-    color: #793EF5;
+    cursor: pointer;
 }
-
+#forgot {
+    display: flex;
+    padding: 20px 204px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    width: 146px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+    color: #793EF5;
+    cursor: pointer;
+}
 /* Frame 1321314610 */
 .loginButton {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 16px;
     gap: 29px;
     width: 360px;
     height: 48px;
@@ -198,7 +182,7 @@
     /* Base/Secondary */
     background: #793EF5;
     border-radius: 16px;
-    border-color: #FFFFFF;
+    border-color: #ffffff00;
     /* Inside auto layout */
     flex: none;
     order: 2;
@@ -208,6 +192,7 @@
 
 /* Login */
 .h3 {
+    box-sizing: border-box;
     margin-top: 14px;
     margin-left: 157.5px;
     margin-right: 157.5px;
